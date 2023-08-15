@@ -1,0 +1,146 @@
+h1{
+    color:red;
+}
+
+/* Nav */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.imgA{
+    height: 70px;
+}
+
+.navA{
+    color: red;
+    margin-left: 150px;
+}
+
+.navB{
+    color: #1A2B6D;
+    margin-left: 360px;
+}
+
+/* Hero */
+.imgB{
+    height: 550px;
+    width:1070px;
+}
+
+.heroContainer{
+    position: absolute;
+    left: 415px;
+    width: 675px;
+    height: 500px;
+    top: 415px;
+    background-color: #F2F2F2;
+}
+
+.heroTextA{
+    font-size: 70px;
+    line-height: 1;
+    position: relative;
+    top: 44px;
+    left: 70px;
+    width: 600px;
+    color: #1A2B6D;
+}
+
+.heroTextB{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 400px;
+    line-height: 2;
+}
+
+.line{
+    position: absolute;
+    top: 670px;
+    left: 450px;
+}
+/* Services */
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 940px;
+    height: 790px;
+    top: 1340px;
+    left: 150px;
+    justify-content: space-between;
+}
+
+.cardRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 290px;
+    width: 235px;
+    background-color: #F2F2F2;
+    box-shadow: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    padding: 35px 20px 0 20px;
+}
+
+.cardA{
+    color: #1A2B6D;
+    font-size: 30px;
+    height: 80px;
+    width: 200px;
+}
+
+.cardB{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.cardBorder{
+    height: 325px;
+    width: 275px;
+    position: absolute;
+    border: 2px solid #F2F2F2;
+}
+
+.cardBorderA{
+    top: 5px;
+    left: 5px;
+}
+
+.cardBorderB{
+    top: 5px;
+    left: 337px;
+}
+
+.cardBorderC{
+    top: 5px;
+    left: 670px;
+}
+
+.cardBorderD{
+    top: 100px;
+    left: 5px;
+}
+
+.services{
+    height: 1550px;
+}
+
+.servicesHeader{
+    color: white;
+    background-color: #1A2B6D;
+    height: 335px;
+    font-size: 55px;
+    padding: 50px 0 0 150px;
+    margin-top: 420px;
+
+}
